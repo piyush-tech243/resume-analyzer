@@ -29,7 +29,7 @@ def is_exact_word(skill, text):
 
 # ---------------- PDF ----------------
 def extract_text_from_pdf(file):
-    reader = pypdf.PdfReader(file)
+    reader = pdfReader(file)
     text = ""
     for page in reader.pages:
         if page.extract_text():
