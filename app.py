@@ -1,6 +1,6 @@
 import streamlit as st
 import re
-import PyPDF2
+from pypdf import PdfReader
 from docx import Document
 from rapidfuzz import fuzz
 st.title("📄 Resume analyzer.py")
