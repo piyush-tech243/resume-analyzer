@@ -1,6 +1,6 @@
 import streamlit as st
 import re
-from pypdf import PdfReader
+from PyPDF2 import PdfReader
 from docx import Document
 from rapidfuzz import fuzz
 st.title("📄 Resume analyzer.py")
@@ -29,7 +29,7 @@ def is_exact_word(skill, text):
 
 # ---------------- PDF ----------------
 def extract_text_from_pdf(file):
-    reader = pdfReader(file)
+    reader = PdfReader(file)
     text = ""
     for page in reader.pages:
         if page.extract_text():
