@@ -1,4 +1,4 @@
 streamlit
-Pypdf
+pypdf
 python-docx
 rapidfuzz
