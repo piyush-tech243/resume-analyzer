@@ -50,7 +50,7 @@ skills_list = [
     "python", "java",  "c++", "javascript",
     # AI ENGINEERING
     
-    "deep learning",'generative Ai","pytorch","tensorflow","keras","statistics","deep learning framework","CNN", "scikit-learn","Anaconda","Agentic AI"
+    "deep learning","generative Ai","pytorch","tensorflow","keras","statistics","deep learning framework","CNN", "scikit-learn","Anaconda","Agentic AI"
     "pandas","numpy","Ai prompting","neural network","Agentic AI"
 
     # Data / Analyst
