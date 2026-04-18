@@ -38,7 +38,7 @@ pip install -r requirements.txt
 streamlit run app.py
 🌐 Live Demo
 
-👉 https://piyush-resume-analyzer.streamlit.app/
+👉 [Click Here] https://piyush-resume-analyzer.streamlit.app/
 
 👨‍💻 Author
 
