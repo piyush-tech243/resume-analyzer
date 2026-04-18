@@ -33,12 +33,13 @@ This app analyzes resumes, extracts skills (even with spelling mistakes), and su
 
 ## 📂 How to Run Locally
 
-```bash
+
 pip install -r requirements.txt
 streamlit run app.py
+
 🌐 Live Demo
 
-👉 [Click Here] https://piyush-resume-analyzer.streamlit.app/
+👉  https://piyush-resume-analyzer.streamlit.app/
 
 👨‍💻 Author
 
