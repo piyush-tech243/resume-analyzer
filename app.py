@@ -47,7 +47,7 @@ def extract_text_from_docx(file):
 
 skills_list = [
     # Programming
-    "python", "java",  "c++", "javascript",
+    "python", "java",  "c++", "javascript","php",
     # AI ENGINEERING
     
     "deep learning","generative Ai","pytorch","tensorflow","keras","statistics","deep learning framework","CNN", "scikit-learn","Anaconda","Agentic AI"
@@ -69,8 +69,29 @@ skills_list = [
     "marketing", "seo", "digital marketing",
     "social media", "content creation", "sales",
 
+    #cyber security
+    "network security", "penetration testing", "ethical hacking"
+    
+    #cloud engineer
+    "aws", "azure", "cloud", "devops"
+
+    #banking
+    "banking", "finance", "loan", "credit", "risk management"
+
+    #Accounting
+    "accounting", "tally", "gst", "taxation", "financial analysis"
+
     # Finance
-    "accounting", "financial analysis", "budgeting",
+    "accounting", "financial analysis", "budgeting"
+    
+    #healthcare
+    "nursing", "patient care", "medical"
+
+    #graphic designer
+    "photoshop", "illustrator", "design", "creativity"
+    
+    #teacher
+    "teaching", "communication", "subject knowledge"
 
     # Soft skills
     "communication", "teamwork", "leadership","digital communication skills"
