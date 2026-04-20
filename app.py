@@ -56,7 +56,7 @@ skills_list = [
     # Data / Analyst
     "sql", "excel", "power bi", "tableau",
     "data analysis", "data visualization",
-    "machine learning",
+    "machine learning","matplotlib","basic statistics knowledge"
 
     # Web
     "html", "css", "react", "node js",
