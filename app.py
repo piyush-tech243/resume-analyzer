@@ -73,9 +73,10 @@ skills_list = [
     "accounting", "financial analysis", "budgeting",
 
     # Soft skills
-    "communication", "teamwork", "leadership",
-    "problem solving",
-
+    "communication", "teamwork", "leadership","digital communication skills"
+    "problem solving","Clear speaking","Problem-solving communication","Verbal Communication","Written Communication"
+    "Listening Skills","Interpersonal Communication","Professional Communication","public speaking skills","persuasion" , "influence skills"
+    
     # Tools
     "ms office", "word", "powerpoint"
 ]
