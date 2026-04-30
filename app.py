@@ -50,13 +50,13 @@ skills_list = [
     "python", "java",  "c++", "javascript","php",
     # AI ENGINEERING
     
-    "deep learning","generative Ai","pytorch","tensorflow","keras","statistics","deep learning framework","CNN", "scikit-learn","Anaconda","Agentic AI"
-    "pandas","numpy","Ai prompting","neural network","Agentic AI"
+    "deep learning","generative Ai","pytorch","tensorflow","keras","statistics","deep learning framework","CNN", "scikit-learn","Anaconda","Agentic AI",
+    "pandas","numpy","Ai prompting","neural network",
 
     # Data / Analyst
     "sql", "excel", "power bi", "tableau",
     "data analysis", "data visualization",
-    "machine learning","matplotlib","basic statistics knowledge"
+    "machine learning","matplotlib","basic statistics knowledge",
 
     # Web
     "html", "css", "react", "node js",
@@ -70,36 +70,36 @@ skills_list = [
     "social media", "content creation", "sales",
 
     #cyber security
-    "network security", "penetration testing", "ethical hacking"
+    "network security", "penetration testing", "ethical hacking",
     
     #cloud engineer
-    "aws", "azure", "cloud", "devops"
+    "aws", "azure", "cloud", "devops",
 
     #banking
-    "banking", "finance", "loan", "credit", "risk management"
+    "banking", "finance", "loan", "credit", "risk management",
 
     #Accounting
-    "accounting", "tally", "gst", "taxation", "financial analysis"
+    "accounting", "tally", "gst", "taxation", "financial analysis",
 
     # Finance
-    "accounting", "financial analysis", "budgeting"
+    "accounting", "financial analysis", "budgeting",
     
     #healthcare
-    "nursing", "patient care", "medical"
+    "nursing", "patient care", "medical",
 
     #graphic designer
-    "photoshop", "illustrator", "design", "creativity"
+    "photoshop", "illustrator", "design", "creativity",
     
     #teacher
-    "teaching", "communication", "subject knowledge"
+    "teaching", "communication", "subject knowledge",
 
     # Soft skills
-    "communication", "teamwork", "leadership","digital communication skills"
-    "problem solving","Clear speaking","Problem-solving communication","Verbal Communication","Written Communication"
-    "Listening Skills","Interpersonal Communication","Professional Communication","public speaking skills","persuasion" , "influence skills"
+    "communication", "teamwork", "leadership","digital communication skills",
+    "problem solving","Clear speaking","Problem-solving communication","Verbal Communication","Written Communication",
+    "Listening Skills","Interpersonal Communication","Professional Communication","public speaking skills","persuasion" , "influence skills",
     
     # Tools
-    "ms office", "word", "powerpoint"
+    "ms office", "word", "powerpoint",
 ]
 
 def extract_skills(text):
