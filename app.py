@@ -1,4 +1,3 @@
-
 import streamlit as st
 import re
 import PyPDF2
@@ -12,7 +11,8 @@ st.markdown("🔗 LinkedIn: https://www.linkedin.com/in/piyush-solanki-9a5bb2317
 st.markdown("Made with ❤️ using Python, Streamlit, RapidFuzz, PyPDF2 & NLP")
 
 # ---------------- FILE INPUT ----------------
-uploaded_file = st.file_uploader("📤 Upload Resume", type=["pdf", "docx", "txt"])
+uploaded_file = st.file_uploader("📤 Upload Resume (Max 5MB)", type=["pdf", "docx", "txt"])
+MAX_FILE_SIZE = 5 * 1024 * 1024   # 5MB
 user_resume = st.text_area("Or paste your Text here")
 
 # ---------------- CLEAN TEXT ----------------
@@ -201,6 +201,9 @@ job_skills = {
 if st.button("Analyze Resume"):
 
     if uploaded_file:
+        if uploaded_file.size > MAX_FILE_SIZE:
+         st.error("❌ File size exceeds 5MB limit. Please upload a file under 5MB.")
+         st.stop()
         if uploaded_file.type == "application/pdf":
             user_resume = extract_text_from_pdf(uploaded_file)
         elif uploaded_file.type == "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
