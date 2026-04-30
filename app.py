@@ -57,7 +57,7 @@ skills_list = [
     "sql", "excel", "power bi", "tableau",
     "data analysis", "data visualization",
     "machine learning","matplotlib","basic statistics knowledge",
-
+     "Data Cleaning", "Exploratory Data Analysis (EDA)", "Insight Generation", "Descriptive Statistics",
     # Web
     "html", "css", "react", "node js",
 
